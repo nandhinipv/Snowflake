@@ -93,7 +93,7 @@
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="472.5" y="640" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-5" value="Network Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-5" value="Network Policy&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Allow &amp;amp; Block IP ranges)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="147" y="585" width="40" height="215" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-6" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -407,6 +407,9 @@
             <mxPoint x="251" y="1140" as="sourcePoint" />
             <mxPoint x="330" y="1180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-116" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendDoubleArrow;dy=3.43;dx=15;arrowHead=20.57;rounded=0;direction=north;fillColor=light-dark(#FFFF99,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="161" y="562" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
