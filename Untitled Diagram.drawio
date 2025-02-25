@@ -17,7 +17,7 @@
           <mxGeometry x="147" y="550" width="983" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-9" value="&lt;ul&gt;&lt;li&gt;Database&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Schema&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Stage&amp;nbsp;&lt;/li&gt;&lt;li&gt;Pipe&lt;/li&gt;&lt;li&gt;Procedure - JavaScript, SQL, Python, Java, Scala - &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;P:Owner Rights,Caller Rights&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Function - UDFs - JavaScript, Java, External&lt;/li&gt;&lt;li&gt;Table - Permanent, Temporary, Transient, External&lt;/li&gt;&lt;li&gt;View - Standard, Materialized, Secure&lt;/li&gt;&lt;li&gt;Sequences&lt;/li&gt;&lt;li&gt;Task - &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;P:CREATE TASK, EXECUTE TASK, Ownership, Operate&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Stream&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="380" y="585" width="470" height="215" as="geometry" />
+          <mxGeometry x="450" y="585" width="470" height="215" as="geometry" />
         </mxCell>
         <mxCell id="ibwjnVHDDmAVO01zUoGi-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Global&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="920" y="200" width="60" height="30" as="geometry" />
@@ -91,7 +91,7 @@
           <mxGeometry x="845" y="120" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="400" y="630" width="60" height="80" as="geometry" />
+          <mxGeometry x="472.5" y="640" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-5" value="Network Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="147" y="585" width="40" height="215" as="geometry" />
@@ -99,17 +99,17 @@
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-6" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="187" y="585" width="40" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-7" value="Roles&lt;div&gt;&lt;ul&gt;&lt;li&gt;ORGADMIN&lt;/li&gt;&lt;li&gt;ACCOUNTADMIN&lt;/li&gt;&lt;li&gt;SYSADMIN&lt;/li&gt;&lt;li&gt;User Defined Roles&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="227" y="585" width="153" height="215" as="geometry" />
+        <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-7" value="Roles&lt;div&gt;&lt;ul&gt;&lt;li&gt;ORGADMIN&lt;/li&gt;&lt;li&gt;ACCOUNTADMIN&lt;/li&gt;&lt;li&gt;SECURITYADMIN&lt;/li&gt;&lt;li&gt;SYSADMIN&lt;/li&gt;&lt;li&gt;USERADMIN&lt;/li&gt;&lt;li&gt;User Defined Roles&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="227" y="585" width="223" height="215" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-10" value="Warehouses" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="585" width="80" height="215" as="geometry" />
+          <mxGeometry x="920" y="585" width="80" height="215" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-12" value="Share" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="585" width="40" height="215" as="geometry" />
+          <mxGeometry x="1000" y="585" width="40" height="215" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-13" value="Resource Monitor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="585" width="70" height="215" as="geometry" />
+          <mxGeometry x="1040" y="585" width="70" height="215" as="geometry" />
         </mxCell>
         <mxCell id="Q2Sbg7GG4PVf0c6vtc3o-14" value="Connectors / Drivers / Partner Programs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="680" width="300" height="40" as="geometry" />
@@ -360,6 +360,53 @@
         </mxCell>
         <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-92" value="API&lt;div&gt;Alternative to SQL&lt;/div&gt;&lt;div&gt;Query data using Python, Java, Scala&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-94" value="ORGADMIN" style="ellipse" vertex="1" parent="1">
+          <mxGeometry x="269.89125152587894" y="860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-95" value="ACCOUNTADMIN" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-96" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-94" target="ZY5xIGEk3SM_XtvLVJQJ-95" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-97" value="SECURITYADMIN" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1020" width="102.89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-98" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-95" target="ZY5xIGEk3SM_XtvLVJQJ-97" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-99" value="SYSADMIN" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="342.12" y="1020" width="87.88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-100" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-95" target="ZY5xIGEk3SM_XtvLVJQJ-99" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-101" value="USERADMIN" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="200.8912515258789" y="1100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-102" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-97" target="ZY5xIGEk3SM_XtvLVJQJ-101" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-104" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-101" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-105" value="PUBLIC" style="rounded=1;arcSize=26;" vertex="1" parent="1">
+          <mxGeometry x="274.9962538146973" y="1160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-106" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="ZY5xIGEk3SM_XtvLVJQJ-99" target="ZY5xIGEk3SM_XtvLVJQJ-107" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-107" value="Custom Role" style="rounded=1;fontColor=light-dark(#2fb638, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="342.12" y="1100" width="87.88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZY5xIGEk3SM_XtvLVJQJ-110" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZY5xIGEk3SM_XtvLVJQJ-107" target="ZY5xIGEk3SM_XtvLVJQJ-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="1140" as="sourcePoint" />
+            <mxPoint x="330" y="1180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
